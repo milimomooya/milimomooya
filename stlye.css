@@ -1,0 +1,139 @@
+html,body {
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    inset-inline-start: 0px;
+    inset-block-start: 0px;
+    }
+    p, li {
+        font: 1em Arial, Helvetica, sans-serif;
+        }
+        h1 {
+        font: 2em Arial, Helvetica, sans-serif;
+        }
+        h2 {
+        font: 1.5em Arial, Helvetica, sans-serif;
+        }
+        h3 {
+        font: 1.25em Arial, Helvetica, sans-serif;
+        }
+        div {
+            column-count: 3;
+            column-gap: 5px;
+            
+          }
+          .item{
+            grid-row: 1 / 3;
+          }
+        a:link {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #00a2ff;
+            text-decoration: underline;
+            }
+            a:visited {
+            color: #ecebf7;
+            }
+            a:hover {
+            background: #070d24;
+            font-weight: bold;
+            }
+            #nav {
+                inline-size: 225px;
+                margin-inline-end: 15px;
+                border: medium solid #000000;
+                }
+                #nav li {
+                list-style: none;
+                }
+                .footer {
+                font-size: .75em;
+                clear: both;
+                inline-size: 100%;
+                text-align: center;
+                }
+                #main {
+                    inline-size: 800px;
+                    inset-block-start: 0px;
+                    position: absolute;
+                    inset-inline-start: 250px;
+                    }
+                    .topline {
+                        border-block-start: thick solid #181713;
+                        }
+                        #main img {
+                            float: inline-start;
+                            margin-inline-end: 5px;
+                            margin-block-end: 15px;
+                            }
+                            
+                            
+                            .fa {
+                                padding: 20px;
+                                font-size: 30px;
+                                inline-size: 30px;
+                                text-align: center;
+                                text-decoration:none;
+                                border-radius: 50%;
+                              }
+                              .fa-facebook {
+                                background: #3B5998;
+                                color: white;
+                              }
+                              .fa-twitter {
+                                background: #55ACEE;
+                                color: white;
+                              }
+                              .fa-pinterest {
+                                background: #cb2027;
+                                color: white;
+                              }
+                              .fa-linkedin {
+                                background: #007bb5;
+                                color: white;
+                              }
+                              .fa-instagram {
+                                background: #125688;
+                                color: white;
+                              }
+                              .fa-youtube {
+                                background: #bb0000;
+                                color: white;
+                              }
+                              .fa-google {
+                                background: #dd4b39;
+                                color: white;
+                              }
+                              .fa:hover{
+                                  opacity: 0.9;
+                              }
+                              .flex-container{
+                                  display:flex;
+                                  background-color:darkslategray;
+                                  padding:10px;
+                                  grid-column: auto;
+                                  grid-row: auto;
+                              }
+                              div{
+                                  display: block;
+                                  inline-size: 150px;
+                                  border: 15px;
+                                  padding:50px;
+                                  margin: 20px;
+                                  background-color:rgb(3, 39, 48);
+                              }
+                              .flex-container{
+                                  background: color #f1f1f1;
+                                  margin: auto;
+                                  padding: auto;
+                                  font-size: 30px;
+                                  grid-template-columns: 200px;
+                              }
+                              .grid-item{
+                                  border:4px solid black;
+                                  inline-size: 120px;
+                                  block-size: 50px;
+                                  padding: 20px;
+                                  font-size: 30px;
+                                  text-align: center;
+                              }
